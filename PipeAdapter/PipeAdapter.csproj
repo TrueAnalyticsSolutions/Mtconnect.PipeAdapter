@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>MTConnect Pipe Adapter</Title>
     <Company>True Analytics Manufacturing Solutions</Company>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>tbm0115</Authors>
     <Description>An implementation of the MTConnect&amp;reg; Adapter Interface producing a stream of pipe-delimitted data thru named pipe connections.</Description>
     <Copyright>True Analytics Manufacturing Solutions, LLC 2022</Copyright>
