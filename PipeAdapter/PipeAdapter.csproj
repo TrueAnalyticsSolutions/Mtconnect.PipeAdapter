@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;netcoreapp3.1;net461;</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>MTConnect Pipe Adapter</Title>
+    <Company>True Analytics Manufacturing Solutions</Company>
+    <Version>0.0.1</Version>
+    <Authors>tbm0115</Authors>
+    <Description>An implementation of the MTConnect&amp;reg; Adapter Interface producing a stream of pipe-delimitted data thru named pipe connections.</Description>
+    <Copyright>True Analytics Manufacturing Solutions, LLC 2022</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Mtconnect;Adapter;Named Pipe;TAMS;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mtconnect.AdapterInterface" Version="1.0.12" />
+  </ItemGroup>
+
+</Project>
